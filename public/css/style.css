@@ -1,0 +1,37 @@
+:root {
+    --font-base: 'Montserrat', sans-serif;
+    --gradient-primary: linear-gradient(45deg, #0066cc, #004080);
+  }
+  
+  body {
+    font-family: var(--font-base);
+    transition: background 0.3s, color 0.3s;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  .dark-mode {
+    background: #202020;
+    color: #ddd;
+  }
+  
+  /* Navbar gradient */
+  .bg-gradient-primary {
+    background: var(--gradient-primary) !important;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: #f8f9fa;
+  }
+  footer a:hover {
+    color: #000;
+  }
+  
+  /* Ensure theme toggle icon stands out */
+  .theme-toggle i {
+    color: #333;
+  }
+  .dark-mode .theme-toggle i {
+    color: #ddd;
+  }
