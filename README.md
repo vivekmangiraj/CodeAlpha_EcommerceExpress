@@ -46,33 +46,8 @@ Git (optional, for version control)
 
 Clone the repo
 
-git clone https://github.com/<your-username>/ecommerce-express.git
-cd ecommerce-express
-
-Install dependencies
-
-npm install
-
-Environment variables
-Create a .env file in the root:
-
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/ecommerce
-SESSION_SECRET=your_secret_key
-
-Seed the database (optional)
-
-node seed.js
-
-This will populate MongoDB with demo products and clear any existing ones.
-
-Run the server
-
-npm start
-# or for auto-reload during development:
-npx nodemon app.js
-
-Open your browser at http://localhost:3000
+git clone https://github.com/<your-username>/CodeAlpha_EcommerceExpress.git
+cd CodeAlpha_EcommerceExpress
 
 📂 Project Structure
 
@@ -90,18 +65,4 @@ Open your browser at http://localhost:3000
 │   └── images/         # Product & hero images
 ├── package.json
 └── .env                # Environment variables (gitignored)
-
-🤝 Contributing
-
-Fork the repository
-
-Create a feature branch: git checkout -b feature/YourFeature
-
-Commit changes: git commit -m "Add YourFeature description"
-
-Push to branch: git push origin feature/YourFeature
-
-Open a Pull Request
-
-Please ensure code is clean and well-documented.
 
